@@ -1,0 +1,15 @@
+img {
+
+width: 100px;
+}
+.votingCount{
+  margin-left: -11px;
+  margin-top: 1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.badge-inverse {
+  background-color: #fff;
+  color: #4e5d6c;
+}

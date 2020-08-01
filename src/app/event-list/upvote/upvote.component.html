@@ -1,0 +1,12 @@
+<div class="votingWidetContainer pointable" (click)="onClick()">
+  <div class="well votingWidget">
+    <!-- <img *ngIf="voted" src="./../../../../src/assets/images/angular-14a0f6532f.png"/>
+    <img *ngIf="!voted" src="./../../../../src//assets/images/basic-shield.png"/> -->
+ <img [style.color]="iconColor" src="./../../../../src/assets/images/angular-14a0f6532f.png"/>
+
+  </div>
+
+  <div class="badge badge-inverse votingCount" >
+    <div>{{count}}</div>
+  </div>
+</div>
